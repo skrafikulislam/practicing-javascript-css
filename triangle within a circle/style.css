@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  background-color: rgb(240, 177, 95);
+  color: black;
+}
+
+.heading {
+  margin-top: 20px;
+  border: 5px solid red;
+  margin-bottom: 40px;
+}
+
+.task {
+  margin-top: 50px;
+  border: 5px solid red;
+  height: 800px;
+}
+
+.circle {
+  border: 5px solid black;
+  height: 650px;
+  width: 650px;
+  margin: auto;
+  margin-top: 80px;
+  border-radius: 50%;
+  background-color: rgb(102, 122, 202);
+}
+ 
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 250px solid transparent;
+  border-left: 250px solid transparent;
+  border-right: 250px solid transparent;
+  border-bottom: 250px solid #000;
+  margin: auto;
+}
